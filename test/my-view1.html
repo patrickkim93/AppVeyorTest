@@ -35,7 +35,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           var myView = fixture('BasicView');
           var circle = myView.shadowRoot.querySelector('.circle');
 
-          assert.equal(circle.textContent, '1');
+          assert.not.equal(circle.textContent, '1');
         });
       });
     </script>
