@@ -4,4 +4,8 @@ environment:
 cache: node_modules/
 build_script:
 - cmd: >-
+    npm install -g polymer-cli
+
+    npm i wct-browser-legacy
+
     polymer test
