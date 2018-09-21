@@ -8,4 +8,4 @@ build_script:
 
     npm i wct-browser-legacy
 
-    polymer test --verbose
+    polymer test
